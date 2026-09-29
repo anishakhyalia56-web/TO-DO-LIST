@@ -63,9 +63,7 @@ editButton.onclick = function () {
 
     const completedTasks = tasks.filter(task => task.completed).length;
 
-    taskCount.textContent = `Total Tasks: $
-    {tasks.length} | Completed: $
-    {completedTasks}`;
+    taskCount.textContent = `Total Tasks: ${tasks.length} | Completed: ${completedTasks}`;
 }
 
 addButton.onclick = function () {
